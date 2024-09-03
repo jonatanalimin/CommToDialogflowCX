@@ -31,7 +31,7 @@ public class Config {
     }
 
     private void setProxy(){
-        System.setProperty("https.proxyHost", "proxy.intra.bca.co.id");
+        System.setProperty("https.proxyHost", "proxy.com");
         System.setProperty("https.proxyPort", "8080");
     }
 
