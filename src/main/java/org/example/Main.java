@@ -12,6 +12,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
         Map<String, String> env = System.getenv();
+
+        /* Please set parameter enableProxy false, if you don't use proxy configuration*/
         Config config = new Config(
                 true,
                 env.get("languageId"),
